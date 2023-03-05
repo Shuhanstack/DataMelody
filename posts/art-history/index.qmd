@@ -17,5 +17,3 @@ artists <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 artists %>% 
   arrange(desc(whitney_count_to_year))
 ```
-
-/
