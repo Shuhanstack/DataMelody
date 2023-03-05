@@ -1,0 +1,14 @@
+{
+  "hash": "36d54d9b966e9dc8183424aaf602f314",
+  "result": {
+    "markdown": "---\ntitle: \"Art History\"\nauthor: \"Shuhan Song\"\ndate: \"2023-03-03\"\ncategories: [tidytuesday, R, analysis]\nimage: \"image.jpg\"\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nartists <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-17/artists.csv')\n\nartists %>% \n  arrange(desc(whitney_count_to_year))\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n# A tibble: 3,162 × 14\n   artist_…¹ editi…²  year artis…³ artis…⁴ artis…⁵ artis…⁶ artis…⁷ book  space…⁸\n   <chr>       <dbl> <dbl> <chr>   <chr>   <chr>   <chr>   <chr>   <chr>   <dbl>\n 1 Edward H…      16  2020 Americ… Americ… Male    White   Not Hi… Gard…   0.445\n 2 Edward H…      15  2016 Americ… Americ… Male    White   Not Hi… Gard…   0.359\n 3 Edward H…      14  2013 Americ… Americ… Male    White   Not Hi… Gard…   0.361\n 4 Edward H…       8  2011 Americ… Americ… Male    White   Not Hi… Jans…   0.453\n 5 Edward H…      13  2009 Americ… Americ… Male    White   Not Hi… Gard…   0.450\n 6 Edward H…       7  2007 Americ… Americ… Male    White   Not Hi… Jans…   0.448\n 7 Edward H…      12  2005 Americ… Americ… Male    White   Not Hi… Gard…   0.438\n 8 Ben Shahn       5  1970 Americ… Americ… Male    White   Not Hi… Gard…   0.284\n 9 Ben Shahn       6  1975 Americ… Americ… Male    White   Not Hi… Gard…   0.301\n10 Ben Shahn       7  1980 Americ… Americ… Male    White   Not Hi… Gard…   0.330\n# … with 3,152 more rows, 4 more variables: artist_unique_id <dbl>,\n#   moma_count_to_year <dbl>, whitney_count_to_year <dbl>,\n#   artist_race_nwi <chr>, and abbreviated variable names ¹​artist_name,\n#   ²​edition_number, ³​artist_nationality, ⁴​artist_nationality_other,\n#   ⁵​artist_gender, ⁶​artist_race, ⁷​artist_ethnicity,\n#   ⁸​space_ratio_per_page_total\n```\n:::\n:::\n\n\n/\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

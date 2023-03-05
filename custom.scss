@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+/*-- $h2-font-size:          1.6rem !default;--*/
+/*-- $headings-font-weight:  500 !default; --*/
+/*-- $body-color:            #495057 !default;--*/
+
+/*-- color --*/
+$primary: #6b3d8a;
+
+/*-- code chunck copy button --*/
+$btn-code-copy-color: #6b3d8a;
+$btn-code-copy-color-active: #dec76a;
+
+/*-- inline code --*/
+$code-bg: #ebf4fa;
+$code-color: #637a5c;
+
+/*-- navigation and sidebar --*/
+
+/*-- dropdown, e.g. </>Code --*/ 
+$dropdown-border-color: #637a5c;
+
+/*-- scss:rules --*/
+/*-- h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+} --*/
+
+/*-- https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss --*/
+/*-- https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/formats/html/bootstrap/themes --*/
+/*-- https://quarto.org/docs/output-formats/html-themes.html#sass-variables--*/

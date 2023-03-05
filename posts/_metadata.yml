@@ -1,0 +1,35 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+# Format HTML: html, code, 
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: left
+    toc-title: "Contents"
+    code-fold: true
+    code-summary: "Code"
+    code-tools: true
+    code-overflow: wrap
+    code-block-bg: "#ebf4fa"
+    code-block-border-left: "#637a5c"
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+
+# Enable comments on page
+comments: 
+  hypothesis: 
+    theme: clean
+
+execute:
+  message: false
+  warning: false
