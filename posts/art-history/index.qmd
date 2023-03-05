@@ -4,6 +4,7 @@ author: "Shuhan Song"
 date: "2023-03-03"
 categories: [tidytuesday, R, analysis]
 image: "image.jpg"
+draft: true
 ---
 
 ```{r echo=FALSE}

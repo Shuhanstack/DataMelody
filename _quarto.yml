@@ -4,8 +4,6 @@ project:
 
 website:
   title: "Blog"
-  site-url: http://datamelody.io
-  description: "Data Melody: Data Science Blog by Song S."
   navbar:
     right:
       - about.qmd
@@ -21,7 +19,6 @@ format:
       dark: cyborg
     # https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
     mainfont: ui-rounded
-    fontsize: 1.2em
     css: styles.css
     
 editor: visual
